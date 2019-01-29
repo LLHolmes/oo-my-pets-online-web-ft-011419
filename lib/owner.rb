@@ -9,5 +9,11 @@ class Owner
   
   def buy_fish
   end
+ 
+  def buy_fish
+  end
+ 
+  def buy_fish
+  end
 
 end
