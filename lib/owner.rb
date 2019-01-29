@@ -1,6 +1,6 @@
 class Owner
-  attr_accessor :name
-  attr_reader :species, :pets
+  attr_accessor :name, :pets
+  attr_reader :species
   
   @@all = []
   
@@ -45,6 +45,7 @@ class Owner
   end
  
   def list_pets
+    "I have #{@pets[:fishes].length} fish, "
   end
  
   def self.all
