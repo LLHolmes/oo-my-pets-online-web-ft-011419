@@ -43,7 +43,7 @@ class Owner
  
   def sell_pets
     @pets.each do |type, animals|
-      animals.each { |pet| animals.mood = "nervous" }
+      animals.each { |pet| pet.mood = "nervous" }
     end
   end
  
