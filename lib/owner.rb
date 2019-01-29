@@ -9,6 +9,8 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
   
+  def say_species
+    puts "I am a #{species}."
   def buy_fish
   end
  
